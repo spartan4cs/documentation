@@ -6,7 +6,7 @@ const darkCodeTheme = require("prism-react-renderer/themes/dracula");
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: "My Site",
+  title: "My Documentation",
   tagline: "Dinosaurs are cool",
   url: "https://spartan4cs.github.io",
   baseUrl: "/documentation/",
@@ -24,14 +24,13 @@ const config = {
         docs: {
           sidebarPath: require.resolve("./sidebars.js"),
           // Please change this to your repo.
-          editUrl:
-            "https://github.com/spartan4cs/documentation/edit/main/website/",
+          editUrl: "https://github.com/spartan4cs/documentation/edit/master/",
         },
         blog: {
           showReadingTime: true,
           // Please change this to your repo.
           editUrl:
-            "https://github.com/spartan4cs/documentation/edit/main/website/blog/",
+            "https://github.com/spartan4cs/documentation/edit/master/blog/",
         },
         theme: {
           customCss: require.resolve("./src/css/custom.css"),
